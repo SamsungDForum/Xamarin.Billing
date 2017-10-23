@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BillingTestXamarinApp.Tizen.CancelSubscriptionScenPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+
+            <StackLayout BackgroundColor="Red" Margin="200" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+                <StackLayout Orientation="Horizontal" BackgroundColor="Green">
+                    <Label Text="Number of Cancellable Subscription : "/>
+                    <Label x:Name="NumberOfCancellableSubscription"
+                           Text="N/a"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="Blue">
+                    <StackLayout Orientation="Vertical" BackgroundColor="Yellow">
+                        <Button x:Name="GetPurchaseListBtn"
+                                Text="Get Purchase List"
+                                Clicked="Request_Purchase_list_Clicked"/>
+                        <Button x:Name="CancelSubscriptionBtn"
+                                Text="Cancel Subscription"
+                                Clicked="Request_Cancel_Subscription_Clicked"/>
+                    </StackLayout>
+                    <Label 
+                        x:Name="OutputLabel"/>
+                </StackLayout>
+            </StackLayout>
+
+            <ActivityIndicator x:Name="LoadingScreen"
+                AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                Color="Yellow" IsRunning="false" IsVisible="False"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

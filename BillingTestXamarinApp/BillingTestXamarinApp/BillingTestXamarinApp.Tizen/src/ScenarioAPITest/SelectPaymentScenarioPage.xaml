@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BillingTestXamarinApp.Tizen.SelectPaymentScenarioPage"
+             BackgroundImage="billing_bg.png"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" Resources="billing_bg.png" Margin="200">
+            <StackLayout Orientation="Vertical" BackgroundColor="LightGray" HeightRequest="500" VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Select Payment Scenario" HorizontalTextAlignment="Center" FontSize="200"/>
+                <Label x:Name="DetailInfomationArea" BackgroundColor="Blue" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" >
+                <Button x:Name="BuyItemScenBtn"
+                    Text="BuyItem Scenario" HeightRequest="100" Clicked="BuyItemClicked"/>
+                <Button x:Name="VerifyAndApplyScenBtn"
+                    Text="Verify And Apply Purchase Scenario" Clicked="VerifyAndApplyClicked"/>
+                <Button x:Name="CancelSubBtn"
+                    Text="Cancel Subscription Scenario" Clicked="CancelSubClicked"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

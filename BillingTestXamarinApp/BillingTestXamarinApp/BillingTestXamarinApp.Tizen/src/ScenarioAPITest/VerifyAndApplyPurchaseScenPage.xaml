@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BillingTestXamarinApp.Tizen.VerifyAndApplyPurchaseScenPage"
+             >
+    <ContentPage.Content>
+        <AbsoluteLayout>
+
+            <StackLayout BackgroundColor="Red" Margin="200" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+                <StackLayout Orientation="Horizontal" BackgroundColor="Green">
+                    <Label Text="Number of Unapplied Purchase : "/>
+                    <Label x:Name="NumberOfUnAppliedPurchase"
+                           Text="N/a"/>
+                    <Label Text="Number of Verified Purchase : "/>
+                    <Label x:Name="NumberOfVerifiedPurchase"
+                           Text="N/a"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="Blue">
+                    <StackLayout Orientation="Vertical" BackgroundColor="Yellow">
+                        <Button x:Name="GetPurchaseListBtn"
+                                Text="Get Purchase List"
+                                Clicked="Request_Purchase_list_Clicked"/>
+                        <Button x:Name="VerifyPurchaseBtn"
+                                Text="Verify Purchase"
+                                Clicked="Request_Verify_Purchase_Clicked"/>
+                        <Button x:Name="ApplyPurchaseBtn"
+                                Text="Apply Purchase"
+                                Clicked="Request_Apply_Product_Clicked"/>
+                    </StackLayout>
+                    <Label 
+                        x:Name="OutputLabel"/>
+                </StackLayout>
+            </StackLayout>
+            
+            <ActivityIndicator x:Name="LoadingScreen"
+                AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"
+                Color="Yellow" IsRunning="false" IsVisible="False"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

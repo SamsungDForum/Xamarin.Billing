@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BillingTestXamarinApp.Tizen.SingleAPITest"
+             Title="Single API Test Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Single API Test" />
+
+            <Button Clicked="ShowRegisterCreditCard_Button_Clicked"
+                Text="ShowRegisterCreditCard"
+                BackgroundColor="Green"></Button>
+            <Button Clicked="ShowPurchaseHistory_Button_Clicked"
+                Text="ShowPurchaseHistory"
+                BackgroundColor="Green"></Button>
+            <Button Clicked="ShowRegisterBenefit_Button_Clicked"
+                Text="ShowRegisterBenefit"
+                BackgroundColor="Green"></Button>
+            <Button Clicked="IsServiceAvailable_Button_Clicked"
+                Text="IsServiceAvailable"
+                BackgroundColor="Green"></Button>
+            <Button Clicked="GetVersion_Button_Clicked"
+                    Text="GetVersion"
+                    BackgroundColor="Green"></Button>
+            <Label x:Name="TestResult" Text="Single API Test" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

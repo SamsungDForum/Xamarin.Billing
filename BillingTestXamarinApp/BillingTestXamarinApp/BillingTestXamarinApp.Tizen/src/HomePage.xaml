@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BillingTestXamarinApp.Tizen.HomePage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua"
+                     VerticalOptions="FillAndExpand">
+                <Label x:Name="MainName" 
+                   TextColor="Black" 
+                   FontSize="Large"
+                   Text="Billing Test app"/>
+                <StackLayout Orientation="Horizontal">
+                    <Button Clicked="SingleEvent_Button_Clicked"
+                            Text="Single Event"
+                            BackgroundColor="Gray"
+                            TextColor="Black"
+                            x:Name="SingleEventBtn"
+                            Focused="Button_Focused"></Button>
+                    <Button Clicked="PaymentScenario_Button_Clicked"
+                            Text="Payment Scenario"
+                            BackgroundColor="Gray"
+                            TextColor="Black"
+                            x:Name="ScenarioEventBtn"
+                            Focused="Button_Focused"></Button>
+
+                <Label x:Name="DetailInfo"
+                       TextColor="Black"/>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
