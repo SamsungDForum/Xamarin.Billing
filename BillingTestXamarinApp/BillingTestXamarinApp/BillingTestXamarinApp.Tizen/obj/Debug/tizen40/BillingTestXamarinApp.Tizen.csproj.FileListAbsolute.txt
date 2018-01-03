@@ -1,0 +1,15 @@
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\bin\Debug\tizen40\BillingTestXamarinApp.Tizen.deps.json
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\bin\Debug\tizen40\BillingTestXamarinApp.Tizen.dll
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\bin\Debug\tizen40\BillingTestXamarinApp.Tizen.pdb
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.csprojResolveAssemblyReference.cache
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.csproj.CoreCompileInputs.cache
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.src.HomePage.xaml.g.cs
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.src.ScenarioAPITest.BuyItemScenPage.xaml.g.cs
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.src.ScenarioAPITest.CancelSubscriptionScenPage.xaml.g.cs
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.src.ScenarioAPITest.SelectPaymentScenarioPage.xaml.g.cs
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.src.ScenarioAPITest.VerifyAndApplyPurchaseScenPage.xaml.g.cs
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.src.SingleAPITest.SingleAPITest.xaml.g.cs
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.AssemblyInfoInputs.cache
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.AssemblyInfo.cs
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.dll
+C:\Users\SEC\Documents\GitHub\Xamarin.Billing\BillingTestXamarinApp\BillingTestXamarinApp\BillingTestXamarinApp.Tizen\obj\Debug\tizen40\BillingTestXamarinApp.Tizen.pdb
