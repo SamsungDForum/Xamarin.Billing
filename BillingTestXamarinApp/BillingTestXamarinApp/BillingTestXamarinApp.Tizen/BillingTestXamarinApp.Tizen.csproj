@@ -30,13 +30,19 @@
   </ItemGroup>
   <!-- Include Nuget Package for Tizen Project building -->
   <ItemGroup> 
-     <PackageReference Include="Tizen.NET" Version="4.0.1-preview1-00038" /> 
+     <PackageReference Include="Tizen.NET" Version="4.0.1-preview1-00038">
+       <ExcludeAssets>Runtime</ExcludeAssets>
+     </PackageReference> 
      <PackageReference Include="Tizen.NET.Sdk" Version="1.0.1" /> 
-     <PackageReference Include="Tizen.TV" Version="1.2.4" /> 
-     <PackageReference Include="Tizen.TV.Service.Billing" Version="1.1.6" /> 
-     <PackageReference Include="Tizen.TV.System" Version="1.0.5" /> 
-     <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" /> 
-     <PackageReference Include="Xamarin.Forms.Platform.Tizen" Version="2.5.0.77107" /> 
+     <PackageReference Include="Tizen.NET.TV" Version="4.4.0.1341">
+       <ExcludeAssets>Runtime</ExcludeAssets>
+     </PackageReference> 
+     <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934">
+       <ExcludeAssets></ExcludeAssets>
+     </PackageReference> 
+     <PackageReference Include="Xamarin.Forms.Platform.Tizen" Version="2.5.0.77107">
+       <ExcludeAssets></ExcludeAssets>
+     </PackageReference> 
   </ItemGroup>
   <ItemGroup>
     <Compile Update="src\ScenarioAPITest\CancelSubscriptionScenPage.xaml.cs">
